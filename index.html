@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <script defer src="index.js"></script>
+    <title>save the universe</title>
+</head>
+<body>
+<h2> rescue the universe</h2>
+   <div  class="intro-title">
+    <p></p>
+   </div> 
+   
+   <div class="container">
+       <div class="game-starter">
+        <button class="play" onclick="play()">play</button>
+        <br>
+        <button class="retreat" onclick="myShip.retreat()">Retreat</button>
+        <br>
+        <button class="resume" >resume</button>
+        <br>
+        <button class="restart" onclick="window.location.reload()">restart</button>
+
+     </div>
+     
+     <div class="human-ship">
+        <div class="name-box">USS assembly</div>
+        <img src="./images/humanspaceship.jpg" alt="">
+
+        <div class="playerImg"></div>
+        <div class="player-score"></div>
+     </div> 
+     <div class="alien-ship" >
+      <div class="name-box">aliens</div>
+      <img src="./images/aliensspaceship.jpg" alt="">
+      <div class="aliens-score"></div>
+     </div>
+   </div>
+
+</body>
+</html>
